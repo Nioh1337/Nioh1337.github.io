@@ -90,6 +90,7 @@ h5 {
     float: left;
     width: 400px;
     height: 400px;
+    padding-bottom: 100px;
 }
 
 #navigation {
@@ -100,29 +101,60 @@ h5 {
 }
 .buttonGuitarPlayer {
     position: absolute;
-	display: inline-block;
-	height: 84px;
-	width: 314px;
-	background: url(img/button_dark_537_1.jpg) 0 0 no-repeat;
-	transition: background 0.3s ease;
+    display: inline-block;
+    height: 84px;
+    width: 314px;
+    background: url(img/button_dark_537_1.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
     left: 537px;
     top: 0px;
 }
- 
+
 .buttonGuitarPlayer:hover {
-	background-image: url(img/button_dark_537.jpg);
+    background-image: url(img/button_dark_537.jpg);
 }
+
 .buttonViduguitar {
     position: absolute;
-	display: inline-block;
-	height: 84px;
-	width: 314px;
-	background: url(img/button_dark_851.jpg) 0 0 no-repeat;
-	transition: background 0.3s ease;
+    display: inline-block;
+    height: 84px;
+    width: 314px;
+    background: url(img/button_dark_851.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
     left: 851px;
     top: 0px;
 }
- 
+
 .buttonViduguitar:hover {
-	background-image: url(img/button_dark_851_1.jpg);
+    background-image: url(img/button_dark_851_1.jpg);
+}
+
+.buttonTop1000Cheeze {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 169px;
+    background: url(img/button_dark_1089.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 1089px;
+    top: 0px;
+}
+
+.buttonTop1000Cheeze:hover {
+    background-image: url(img/button_dark_1089_1.jpg);
+}
+
+.buttonGOtomain {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 169px;
+    background: url(img/button_dark_main.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 0px;
+    top: 0px;
+}
+
+.buttonGOtomain:hover {
+    background-image: url(img/button_dark_main_1.jpg);
 }
