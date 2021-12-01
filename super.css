@@ -49,7 +49,7 @@ h4 {
     text-align: left;
     margin-left: 350px;
     margin-right: 50px;
-    top: 430px;
+    padding-top: 550px;
     line-height: 20px;
 }
 
@@ -60,8 +60,8 @@ h5 {
 
 .image-center {
     position: absolute;
-    left: 5px;
-    top: 2320px;
+    margin-left: 5px;
+    top: 2100px;
 }
 
 .ssilka1 {
@@ -70,14 +70,13 @@ h5 {
 
 #videoPlayer {
     position: absolute;
-    left: 25%;
-    top: 1700px;
+    display: block;
+    padding-left: 25%;
 }
 
 #Pazzl {
     position: absolute;
-    left: 30px;
-    top: 2700px;
+    padding-left: 20px;
 }
 
 .buttonGuitarPlayer {
@@ -143,10 +142,10 @@ h5 {
 .s04h {
     position: absolute;
     font-family: Trebuchet MS, Arial, Times New Roman;
-    font-size: 50px;
+    color: rgb(255, 178, 107);
+    padding-left: 100px;
+    padding-top: 150px;
     width: 500px;
-    margin-left: 140px;
-    margin-top: 150px;
 }
 
 h7
